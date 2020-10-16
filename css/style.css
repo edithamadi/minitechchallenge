@@ -1,0 +1,108 @@
+
+  .news {
+
+    border-bottom: 2px solid black;
+        
+   }
+
+   .container {
+       background-color: solid black;
+
+       width: 800px;
+       padding: 70px;
+       border: 200px solid black;
+       margin: 80px;
+  }
+
+  .jumbotron-fluid {
+    width: 800px;
+    padding: 10px;
+    margin: 100;
+
+  }
+
+   .tabloo{
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+   }
+   
+
+   .row {
+
+    border-bottom: 2px solid black;
+   }
+  
+  .column {
+    float: left;
+    font-size: xx-small;
+    text-align: left;
+    width: 28%;
+    padding: 10px;
+    height: 210px;
+    border-left: 1px solid grey;
+  }
+
+  .colspann {
+    float: left;
+    font-size: small;
+    text-align: center;
+    width: 66%;
+    padding: 10px;
+    height: 210px;
+    border-left: 1px solid grey;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img{
+      width:100%;
+      height:auto;
+  }
+
+  .politics{
+      background-color: #f0b55e;
+      padding:15px;
+      margin:0px;
+      width: 100%;
+      float:auto;
+      
+      
+  }
+
+  .technology{
+        background-color: #a9e7e9; 
+        padding:15px;
+        margin: 0px;
+        width: 100%;
+        
+  }
+
+    .local{
+        background-color: #94e9cd;
+        padding:15px;
+        margin: 0px;
+        width: 100%;
+        
+  }
+    .opinion{
+        background-color: #a3b8e4;
+        padding:15px;
+        margin: 0px;
+        width: 100%;
+        
+  }
+
+    .sports{
+        background-color: #bba4e9;
+        padding:15px;
+        margin: 0px;
+        width: 100%;     
+
+    }
+               
+
